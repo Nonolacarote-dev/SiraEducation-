@@ -1,14 +1,16 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-  background-color: #391e0b !important;
-  color: #cebca3 !important;
+  background-color: #19493d !important;
+  color: #cdb28e !important;
   margin: 0;
   font-family: system-ui, -apple-system, sans-serif;
 }
 
 /* Forcer le fond sombre pour l'application */
 #root {
-  background-color: #032c19;
+  background-color: #0c304b;
   min-height: 100vh;
 }
